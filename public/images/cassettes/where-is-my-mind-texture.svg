@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-mind" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9d4edd;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#c77dff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e0aaff;stop-opacity:0.95" />
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600&display=swap');
+      .title { font-family: 'Instrument Serif', serif; font-size: 44px; font-weight: bold; color: #2c2825; font-style: italic; }
+      .iso { font-family: 'Lora', serif; font-size: 36px; font-weight: 600; color: #6b1b9a; }
+      .label { font-family: 'Lora', serif; font-size: 16px; color: #2c2825; }
+    </style>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="400" height="600" fill="url(#grad-mind)"/>
+  
+  <!-- Top section -->
+  <rect width="400" height="100" fill="#fafaf8"/>
+  
+  <!-- Divider -->
+  <line x1="0" y1="100" x2="400" y2="100" stroke="#9d4edd" stroke-width="3"/>
+  
+  <!-- Main content -->
+  <g>
+    <!-- Experimental elements -->
+    <circle cx="100" cy="200" r="15" fill="none" stroke="#6b1b9a" stroke-width="2" opacity="0.6"/>
+    <rect x="310" y="185" width="30" height="30" fill="none" stroke="#6b1b9a" stroke-width="2" opacity="0.6" transform="rotate(45 325 200)"/>
+    
+    <!-- Film name -->
+    <text x="200" y="260" text-anchor="middle" class="title">Where is</text>
+    <text x="200" y="310" text-anchor="middle" class="title">my Mind</text>
+    
+    <!-- ISO -->
+    <text x="200" y="380" text-anchor="middle" class="iso">200</text>
+    
+    <!-- Film type -->
+    <text x="200" y="430" text-anchor="middle" class="label">Experimental</text>
+  </g>
+  
+  <!-- Bottom -->
+  <rect y="500" width="400" height="100" fill="#f3e5f5"/>
+  <text x="200" y="550" text-anchor="middle" class="label" font-size="13">Color shifts • Artistic • Creative exploration</text>
+</svg>

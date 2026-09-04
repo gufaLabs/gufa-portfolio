@@ -1,67 +1,86 @@
 [
   {
-    "id": "portra-400",
-    "name": "Kodak Portra 400",
-    "description": "Vibrant and natural color film stock with exceptional skin tones and saturated colors",
-    "iso": 400,
+    "id": "essence-250",
+    "name": "Essence 250",
+    "description": "A refined film stock capturing subtle tones with minimal grain and natural color reproduction",
+    "iso": 250,
     "type": "Color Negative",
-    "characteristics": ["Fine grain", "Excellent color saturation", "Great for portraits"],
+    "characteristics": ["Fine grain", "Natural colors", "Balanced exposure latitude"],
+    "texture": "/images/cassettes/essence-250-texture.svg",
     "images": [
-      "/images/samples/portra-1.svg",
-      "/images/samples/portra-2.svg",
-      "/images/samples/portra-3.svg"
+      "/images/samples/essence-250-1.svg",
+      "/images/samples/essence-250-2.svg",
+      "/images/samples/essence-250-3.svg"
     ]
   },
   {
-    "id": "ektachrome-64",
-    "name": "Kodak Ektachrome 64",
-    "description": "Classic transparency film with vivid, saturated colors and excellent contrast",
+    "id": "chandrama-2500",
+    "name": "Chandrama 2500",
+    "description": "Ultra-high sensitivity film for low-light photography with distinctive grain character",
+    "iso": 2500,
+    "type": "Color Negative",
+    "characteristics": ["High ISO", "Pronounced grain", "Low-light optimized"],
+    "texture": "/images/cassettes/chandrama-2500-texture.svg",
+    "images": [
+      "/images/samples/chandrama-2500-1.svg",
+      "/images/samples/chandrama-2500-2.svg",
+      "/images/samples/chandrama-2500-3.svg"
+    ]
+  },
+  {
+    "id": "sol-64",
+    "name": "Sol.64",
+    "description": "Ultra-fine grain daylight film with saturated, vivid colors ideal for outdoor cinematography",
     "iso": 64,
     "type": "Color Reversal",
-    "characteristics": ["Vibrant colors", "Fine grain", "High contrast"],
+    "characteristics": ["Ultra-fine grain", "High saturation", "Daylight optimized"],
+    "texture": "/images/cassettes/sol-64-texture.svg",
     "images": [
-      "/images/samples/ektachrome-1.svg",
-      "/images/samples/ektachrome-2.svg",
-      "/images/samples/ektachrome-3.svg"
+      "/images/samples/sol-64-1.svg",
+      "/images/samples/sol-64-2.svg",
+      "/images/samples/sol-64-3.svg"
     ]
   },
   {
-    "id": "tri-x-400",
-    "name": "Kodak Tri-X 400",
-    "description": "Versatile black & white film with excellent contrast and tonal range",
-    "iso": 400,
-    "type": "Black & White Negative",
-    "characteristics": ["High contrast", "Coarse grain", "Versatile"],
+    "id": "where-is-my-mind",
+    "name": "Where is my Mind",
+    "description": "Experimental film with unpredictable color shifts and unique aesthetic for creative exploration",
+    "iso": 200,
+    "type": "Color Experimental",
+    "characteristics": ["Color shifts", "Artistic", "Experimental"],
+    "texture": "/images/cassettes/where-is-my-mind-texture.svg",
     "images": [
-      "/images/samples/trix-1.svg",
-      "/images/samples/trix-2.svg",
-      "/images/samples/trix-3.svg"
+      "/images/samples/where-is-my-mind-1.svg",
+      "/images/samples/where-is-my-mind-2.svg",
+      "/images/samples/where-is-my-mind-3.svg"
     ]
   },
   {
-    "id": "fujifilm-pro400h",
-    "name": "Fujifilm Pro 400H",
-    "description": "Professional color negative film with warm tones and exceptional detail",
-    "iso": 400,
+    "id": "sol-sister-125",
+    "name": "Sol Sister 125",
+    "description": "Daylight film with warm, flattering tones perfect for portrait and lifestyle photography",
+    "iso": 125,
     "type": "Color Negative",
-    "characteristics": ["Warm tones", "Fine grain", "Excellent details"],
+    "characteristics": ["Warm tones", "Flattering", "Fine grain"],
+    "texture": "/images/cassettes/sol-sister-125-texture.svg",
     "images": [
-      "/images/samples/pro400h-1.svg",
-      "/images/samples/pro400h-2.svg",
-      "/images/samples/pro400h-3.svg"
+      "/images/samples/sol-sister-125-1.svg",
+      "/images/samples/sol-sister-125-2.svg",
+      "/images/samples/sol-sister-125-3.svg"
     ]
   },
   {
-    "id": "ilford-hp5",
-    "name": "Ilford HP5 Plus",
-    "description": "Classic black & white film with traditional look and beautiful tonal gradation",
-    "iso": 400,
-    "type": "Black & White Negative",
-    "characteristics": ["Fine grain", "Traditional look", "Great tonal range"],
+    "id": "sol-set-250",
+    "name": "Sol Set 250",
+    "description": "Golden hour film stock with warm amber tones and excellent color saturation",
+    "iso": 250,
+    "type": "Color Negative",
+    "characteristics": ["Golden tones", "Warm palette", "Saturated colors"],
+    "texture": "/images/cassettes/sol-set-250-texture.svg",
     "images": [
-      "/images/samples/hp5-1.svg",
-      "/images/samples/hp5-2.svg",
-      "/images/samples/hp5-3.svg"
+      "/images/samples/sol-set-250-1.svg",
+      "/images/samples/sol-set-250-2.svg",
+      "/images/samples/sol-set-250-3.svg"
     ]
   }
 ]

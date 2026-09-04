@@ -1,0 +1,43 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-sister" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdc4b3;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#f5b894;stop-opacity:0.95" />
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600&display=swap');
+      .title { font-family: 'Instrument Serif', serif; font-size: 52px; font-weight: bold; color: #2c2825; }
+      .iso { font-family: 'Lora', serif; font-size: 40px; font-weight: 600; color: #c8922a; }
+      .label { font-family: 'Lora', serif; font-size: 18px; color: #2c2825; }
+    </style>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="400" height="600" fill="url(#grad-sister)"/>
+  
+  <!-- Top accent -->
+  <rect width="400" height="110" fill="#fafaf8"/>
+  
+  <!-- Decorative divider with warm accent -->
+  <rect y="110" width="400" height="4" fill="#c8922a"/>
+  
+  <!-- Main content -->
+  <g>
+    <!-- Heart/person symbol -->
+    <circle cx="200" cy="180" r="8" fill="#c8922a"/>
+    <path d="M 200 180 Q 180 200 180 220 Q 180 235 200 245 Q 220 235 220 220 Q 220 200 200 180" fill="none" stroke="#c8922a" stroke-width="2"/>
+    
+    <!-- Film name -->
+    <text x="200" y="290" text-anchor="middle" class="title">Sol Sister</text>
+    
+    <!-- ISO -->
+    <text x="200" y="370" text-anchor="middle" class="iso">125</text>
+    
+    <!-- Film type -->
+    <text x="200" y="420" text-anchor="middle" class="label">Color Negative</text>
+  </g>
+  
+  <!-- Bottom section -->
+  <rect y="500" width="400" height="100" fill="#e8e4e0"/>
+  <text x="200" y="555" text-anchor="middle" class="label" font-size="14">Warm tones • Flattering • Daylight optimized</text>
+</svg>

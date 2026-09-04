@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { motion } from 'framer-motion';
-import { Mesh, Group } from 'three';
+import { Mesh, Texture, TextureLoader } from 'three';
 import { Film } from '@/app/lib/types';
 
 interface FilmCardProps {
@@ -12,9 +12,10 @@ interface FilmCardProps {
   totalFilms: number;
   rotation: number;
   onSelect: (film: Film) => void;
+  texture: Texture | null;
 }
 
-function FilmCard({ film, index, totalFilms, rotation, onSelect }: FilmCardProps) {
+function FilmCard({ film, index, totalFilms, rotation, onSelect, texture }: FilmCardProps) {
   const meshRef = useRef<Mesh>(null);
   const angle = (index / totalFilms) * Math.PI * 2 + rotation;
   const radius = 4;
@@ -42,11 +43,14 @@ function FilmCard({ film, index, totalFilms, rotation, onSelect }: FilmCardProps
         if (meshRef.current) meshRef.current.scale.setScalar(0.85);
       }}
     >
-      <boxGeometry args={[2, 3, 0.1]} />
+      <boxGeometry args={[2, 3, 0.2]} />
       <meshStandardMaterial
-        color={`hsl(${index * (360 / totalFilms)}, 75%, 60%)`}
-        emissive={`hsl(${index * (360 / totalFilms)}, 75%, 40%)`}
-        emissiveIntensity={0.3}
+        map={texture}
+        roughness={0.4}
+        metalness={0.1}
+        emissive={texture ? '#666666' : `hsl(${index * (360 / totalFilms)}, 75%, 40%)`}
+        emissiveIntensity={texture ? 0.1 : 0.3}
+        emissiveMap={texture}
       />
     </mesh>
   );
@@ -60,8 +64,33 @@ interface FilmCarouselProps {
 export function FilmCarousel({ films, onSelectFilm }: FilmCarouselProps) {
   const [rotation, setRotation] = useState(0);
   const [dragStart, setDragStart] = useState(0);
+  const [textures, setTextures] = useState<Map<string, Texture | null>>(new Map());
   const containerRef = useRef<HTMLDivElement>(null);
   const lastRotationRef = useRef(0);
+
+  // Load textures
+  useEffect(() => {
+    const loader = new TextureLoader();
+    const loadedTextures = new Map<string, Texture | null>();
+
+    films.forEach((film) => {
+      if (film.texture) {
+        loader.load(
+          film.texture,
+          (texture) => {
+            texture.flipY = false;
+            loadedTextures.set(film.id, texture);
+            setTextures(new Map(loadedTextures));
+          },
+          undefined,
+          () => {
+            loadedTextures.set(film.id, null);
+            setTextures(new Map(loadedTextures));
+          }
+        );
+      }
+    });
+  }, [films]);
 
   const handleDragStart = (e: React.MouseEvent | React.TouchEvent) => {
     const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
@@ -105,6 +134,7 @@ export function FilmCarousel({ films, onSelectFilm }: FilmCarouselProps) {
             totalFilms={films.length}
             rotation={rotation}
             onSelect={onSelectFilm}
+            texture={textures.get(film.id) || null}
           />
         ))}
       </Canvas>

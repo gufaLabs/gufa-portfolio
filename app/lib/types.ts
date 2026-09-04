@@ -5,5 +5,6 @@ export interface Film {
   iso: number;
   type: string;
   characteristics: string[];
+  texture?: string;
   images: string[];
 }

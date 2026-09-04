@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-chandrama" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a3a3a;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#5a5a5a;stop-opacity:0.95" />
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600&display=swap');
+      .title { font-family: 'Instrument Serif', serif; font-size: 48px; font-weight: bold; color: #fafaf8; font-style: italic; }
+      .iso { font-family: 'Lora', serif; font-size: 32px; font-weight: 600; color: #e8e4e0; }
+      .label { font-family: 'Lora', serif; font-size: 18px; color: #e8e4e0; }
+    </style>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="400" height="600" fill="url(#grad-chandrama)"/>
+  
+  <!-- Upper section accent -->
+  <rect width="400" height="120" fill="#1a1a1a"/>
+  
+  <!-- Divider -->
+  <line x1="0" y1="120" x2="400" y2="120" stroke="#c8922a" stroke-width="3"/>
+  
+  <!-- Main content -->
+  <g>
+    <!-- Film name -->
+    <text x="200" y="230" text-anchor="middle" class="title">Chandrama</text>
+    
+    <!-- ISO -->
+    <text x="200" y="320" text-anchor="middle" class="iso">2500</text>
+    
+    <!-- Film type -->
+    <text x="200" y="370" text-anchor="middle" class="label">High Sensitivity</text>
+    
+    <!-- Decorative stars -->
+    <text x="140" y="440" font-size="24">★</text>
+    <text x="200" y="440" font-size="24">★</text>
+    <text x="260" y="440" font-size="24">★</text>
+  </g>
+  
+  <!-- Bottom section -->
+  <rect y="520" width="400" height="80" fill="#2a2a2a"/>
+  <text x="200" y="570" text-anchor="middle" class="label" font-size="14">Ultra-high ISO • Night optimized • Grain character</text>
+</svg>

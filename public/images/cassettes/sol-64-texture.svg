@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-sol64" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb700;stop-opacity:0.95" />
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600&display=swap');
+      .title { font-family: 'Instrument Serif', serif; font-size: 56px; font-weight: bold; color: #2c2825; }
+      .iso { font-family: 'Lora', serif; font-size: 48px; font-weight: 600; color: #c8922a; }
+      .label { font-family: 'Lora', serif; font-size: 18px; color: #2c2825; }
+    </style>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="400" height="600" fill="url(#grad-sol64)"/>
+  
+  <!-- Top accent band -->
+  <rect width="400" height="80" fill="#fafaf8"/>
+  
+  <!-- Divider -->
+  <line x1="0" y1="80" x2="400" y2="80" stroke="#c8922a" stroke-width="2"/>
+  
+  <!-- Main content -->
+  <g>
+    <!-- Sun symbol -->
+    <circle cx="200" cy="180" r="30" fill="none" stroke="#c8922a" stroke-width="2"/>
+    <line x1="200" y1="140" x2="200" y2="110" stroke="#c8922a" stroke-width="2"/>
+    <line x1="200" y1="220" x2="200" y2="250" stroke="#c8922a" stroke-width="2"/>
+    <line x1="140" y1="180" x2="110" y2="180" stroke="#c8922a" stroke-width="2"/>
+    <line x1="260" y1="180" x2="290" y2="180" stroke="#c8922a" stroke-width="2"/>
+    
+    <!-- Film name -->
+    <text x="200" y="320" text-anchor="middle" class="title">Sol.64</text>
+    
+    <!-- ISO -->
+    <text x="200" y="390" text-anchor="middle" class="iso">64</text>
+    
+    <!-- Film type -->
+    <text x="200" y="440" text-anchor="middle" class="label">Color Reversal</text>
+  </g>
+  
+  <!-- Bottom section -->
+  <rect y="500" width="400" height="100" fill="#e8e4e0"/>
+  <text x="200" y="555" text-anchor="middle" class="label" font-size="14">Ultra-fine grain • Vivid daylight • Saturated colors</text>
+</svg>

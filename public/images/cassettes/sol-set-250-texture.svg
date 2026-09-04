@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-set" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff8c42;stop-opacity:0.95" />
+      <stop offset="50%" style="stop-color:#d4a574;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#a67520;stop-opacity:0.95" />
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600&display=swap');
+      .title { font-family: 'Instrument Serif', serif; font-size: 52px; font-weight: bold; color: #fafaf8; font-style: italic; }
+      .iso { font-family: 'Lora', serif; font-size: 40px; font-weight: 600; color: #fafaf8; }
+      .label { font-family: 'Lora', serif; font-size: 18px; color: #fafaf8; }
+    </style>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="400" height="600" fill="url(#grad-set)"/>
+  
+  <!-- Top golden section -->
+  <rect width="400" height="100" fill="#ffd700" opacity="0.6"/>
+  
+  <!-- Divider -->
+  <line x1="0" y1="100" x2="400" y2="100" stroke="#fafaf8" stroke-width="2"/>
+  
+  <!-- Main content -->
+  <g>
+    <!-- Sunset rays -->
+    <line x1="200" y1="160" x2="200" y2="120" stroke="#fafaf8" stroke-width="2" opacity="0.7"/>
+    <line x1="240" y1="175" x2="260" y2="155" stroke="#fafaf8" stroke-width="2" opacity="0.6"/>
+    <line x1="160" y1="175" x2="140" y2="155" stroke="#fafaf8" stroke-width="2" opacity="0.6"/>
+    
+    <!-- Film name -->
+    <text x="200" y="280" text-anchor="middle" class="title">Sol Set</text>
+    
+    <!-- ISO -->
+    <text x="200" y="370" text-anchor="middle" class="iso">250</text>
+    
+    <!-- Film type -->
+    <text x="200" y="420" text-anchor="middle" class="label">Color Negative</text>
+  </g>
+  
+  <!-- Bottom section -->
+  <rect y="500" width="400" height="100" fill="#8b5a2b" opacity="0.8"/>
+  <text x="200" y="555" text-anchor="middle" class="label" font-size="14">Golden hour • Warm palette • Saturated colors</text>
+</svg>

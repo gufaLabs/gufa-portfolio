@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-essence" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8922a;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:0.95" />
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600&display=swap');
+      .title { font-family: 'Instrument Serif', serif; font-size: 56px; font-weight: bold; color: #2c2825; }
+      .iso { font-family: 'Lora', serif; font-size: 32px; font-weight: 600; color: #6b5e52; }
+      .label { font-family: 'Lora', serif; font-size: 18px; color: #2c2825; }
+    </style>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="400" height="600" fill="url(#grad-essence)"/>
+  
+  <!-- Upper section with accent -->
+  <rect width="400" height="150" fill="#fafaf8"/>
+  
+  <!-- Divider accent -->
+  <line x1="0" y1="150" x2="400" y2="150" stroke="#d6cfc8" stroke-width="2"/>
+  
+  <!-- Main content area -->
+  <g>
+    <!-- Film name -->
+    <text x="200" y="220" text-anchor="middle" class="title">Essence</text>
+    
+    <!-- ISO -->
+    <text x="200" y="310" text-anchor="middle" class="iso">250</text>
+    
+    <!-- Film type label -->
+    <text x="200" y="360" text-anchor="middle" class="label">Color Negative</text>
+    
+    <!-- Decorative element -->
+    <circle cx="200" cy="420" r="3" fill="#c8922a"/>
+    <circle cx="190" cy="420" r="3" fill="#c8922a"/>
+    <circle cx="210" cy="420" r="3" fill="#c8922a"/>
+  </g>
+  
+  <!-- Bottom accent bar -->
+  <rect y="550" width="400" height="50" fill="#e8e4e0"/>
+  <text x="20" y="585" class="label" font-size="14">Fine grain • Natural colors</text>
+</svg>

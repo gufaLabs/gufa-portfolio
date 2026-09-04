@@ -1,0 +1,11 @@
+<svg width='400' height='300' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <linearGradient id="grad-essence-250-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(179,50%,60%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(148,50%,40%);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width='400' height='300' fill='url(#grad-essence-250-3)'/>
+  <text x='200' y='150' text-anchor='middle' dy='.3em' font-family='Instrument Serif, serif' font-size='32' font-weight='bold' fill='#fafaf8' opacity='0.8'>essence-250</text>
+  <text x='200' y='190' text-anchor='middle' dy='.3em' font-family='Lora, serif' font-size='18' fill='#fafaf8' opacity='0.6'>Sample 3</text>
+</svg>

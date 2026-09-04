@@ -1,0 +1,67 @@
+[
+  {
+    "id": "portra-400",
+    "name": "Kodak Portra 400",
+    "description": "Vibrant and natural color film stock with exceptional skin tones and saturated colors",
+    "iso": 400,
+    "type": "Color Negative",
+    "characteristics": ["Fine grain", "Excellent color saturation", "Great for portraits"],
+    "images": [
+      "/images/samples/portra-1.svg",
+      "/images/samples/portra-2.svg",
+      "/images/samples/portra-3.svg"
+    ]
+  },
+  {
+    "id": "ektachrome-64",
+    "name": "Kodak Ektachrome 64",
+    "description": "Classic transparency film with vivid, saturated colors and excellent contrast",
+    "iso": 64,
+    "type": "Color Reversal",
+    "characteristics": ["Vibrant colors", "Fine grain", "High contrast"],
+    "images": [
+      "/images/samples/ektachrome-1.svg",
+      "/images/samples/ektachrome-2.svg",
+      "/images/samples/ektachrome-3.svg"
+    ]
+  },
+  {
+    "id": "tri-x-400",
+    "name": "Kodak Tri-X 400",
+    "description": "Versatile black & white film with excellent contrast and tonal range",
+    "iso": 400,
+    "type": "Black & White Negative",
+    "characteristics": ["High contrast", "Coarse grain", "Versatile"],
+    "images": [
+      "/images/samples/trix-1.svg",
+      "/images/samples/trix-2.svg",
+      "/images/samples/trix-3.svg"
+    ]
+  },
+  {
+    "id": "fujifilm-pro400h",
+    "name": "Fujifilm Pro 400H",
+    "description": "Professional color negative film with warm tones and exceptional detail",
+    "iso": 400,
+    "type": "Color Negative",
+    "characteristics": ["Warm tones", "Fine grain", "Excellent details"],
+    "images": [
+      "/images/samples/pro400h-1.svg",
+      "/images/samples/pro400h-2.svg",
+      "/images/samples/pro400h-3.svg"
+    ]
+  },
+  {
+    "id": "ilford-hp5",
+    "name": "Ilford HP5 Plus",
+    "description": "Classic black & white film with traditional look and beautiful tonal gradation",
+    "iso": 400,
+    "type": "Black & White Negative",
+    "characteristics": ["Fine grain", "Traditional look", "Great tonal range"],
+    "images": [
+      "/images/samples/hp5-1.svg",
+      "/images/samples/hp5-2.svg",
+      "/images/samples/hp5-3.svg"
+    ]
+  }
+]

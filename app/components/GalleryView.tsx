@@ -65,8 +65,8 @@ export function GalleryView({ film, allFilms, onSelectFilm, onClose }: GalleryVi
           <p className="text-xs leading-relaxed mb-4" style={{ color: 'rgba(255,255,255,0.7)' }}>
             {film.characteristics.join(' · ')}
           </p>
-          <p className="text-[11px] tracking-widest uppercase" style={{ color: 'rgba(255,255,255,0.6)' }}>
-            gufa.Labs
+          <p className="text-[11px] tracking-widest" style={{ color: 'rgba(255,255,255,0.6)' }}>
+            The Film Dealer
           </p>
         </div>
       </aside>

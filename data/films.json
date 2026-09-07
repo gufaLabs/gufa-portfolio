@@ -5,12 +5,16 @@
     "description": "A refined film stock capturing subtle tones with minimal grain and natural color reproduction",
     "iso": 250,
     "type": "Color Negative",
-    "characteristics": ["Fine grain", "Natural colors", "Balanced exposure latitude"],
-    "texture": "/images/cassettes/essence-250-texture.svg",
+    "characteristics": [
+      "Fine grain",
+      "Natural colors",
+      "Balanced exposure latitude"
+    ],
+    "texture": "/images/cassettes/essence-250-texture.jpg",
     "images": [
-      "/images/samples/essence-250-1.svg",
-      "/images/samples/essence-250-2.svg",
-      "/images/samples/essence-250-3.svg"
+      "/images/samples/essence-250-1.jpg",
+      "/images/samples/essence-250-2.jpg",
+      "/images/samples/essence-250-3.jpg"
     ]
   },
   {
@@ -19,11 +23,15 @@
     "description": "Ultra-high sensitivity film for low-light photography with distinctive grain character",
     "iso": 2500,
     "type": "Color Negative",
-    "characteristics": ["High ISO", "Pronounced grain", "Low-light optimized"],
-    "texture": "/images/cassettes/chandrama-2500-texture.svg",
+    "characteristics": [
+      "High ISO",
+      "Pronounced grain",
+      "Low-light optimized"
+    ],
+    "texture": "/images/cassettes/chandrama-2500-texture.jpg",
     "images": [
-      "/images/samples/chandrama-2500-1.svg",
-      "/images/samples/chandrama-2500-2.svg",
+      "/images/samples/chandrama-2500-1.jpg",
+      "/images/samples/chandrama-2500-2.jpg",
       "/images/samples/chandrama-2500-3.svg"
     ]
   },
@@ -33,12 +41,16 @@
     "description": "Ultra-fine grain daylight film with saturated, vivid colors ideal for outdoor cinematography",
     "iso": 64,
     "type": "Color Reversal",
-    "characteristics": ["Ultra-fine grain", "High saturation", "Daylight optimized"],
-    "texture": "/images/cassettes/sol-64-texture.svg",
+    "characteristics": [
+      "Ultra-fine grain",
+      "High saturation",
+      "Daylight optimized"
+    ],
+    "texture": "/images/cassettes/sol-64-texture.png",
     "images": [
-      "/images/samples/sol-64-1.svg",
-      "/images/samples/sol-64-2.svg",
-      "/images/samples/sol-64-3.svg"
+      "/images/samples/sol-64-1.jpg",
+      "/images/samples/sol-64-2.jpg",
+      "/images/samples/sol-64-3.jpg"
     ]
   },
   {
@@ -47,7 +59,11 @@
     "description": "Experimental film with unpredictable color shifts and unique aesthetic for creative exploration",
     "iso": 200,
     "type": "Color Experimental",
-    "characteristics": ["Color shifts", "Artistic", "Experimental"],
+    "characteristics": [
+      "Color shifts",
+      "Artistic",
+      "Experimental"
+    ],
     "texture": "/images/cassettes/where-is-my-mind-texture.svg",
     "images": [
       "/images/samples/where-is-my-mind-1.svg",
@@ -61,7 +77,11 @@
     "description": "Daylight film with warm, flattering tones perfect for portrait and lifestyle photography",
     "iso": 125,
     "type": "Color Negative",
-    "characteristics": ["Warm tones", "Flattering", "Fine grain"],
+    "characteristics": [
+      "Warm tones",
+      "Flattering",
+      "Fine grain"
+    ],
     "texture": "/images/cassettes/sol-sister-125-texture.svg",
     "images": [
       "/images/samples/sol-sister-125-1.svg",
@@ -75,8 +95,12 @@
     "description": "Golden hour film stock with warm amber tones and excellent color saturation",
     "iso": 250,
     "type": "Color Negative",
-    "characteristics": ["Golden tones", "Warm palette", "Saturated colors"],
-    "texture": "/images/cassettes/sol-set-250-texture.svg",
+    "characteristics": [
+      "Golden tones",
+      "Warm palette",
+      "Saturated colors"
+    ],
+    "texture": "/images/cassettes/sol-set-250-texture.png",
     "images": [
       "/images/samples/sol-set-250-1.svg",
       "/images/samples/sol-set-250-2.svg",

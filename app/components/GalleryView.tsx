@@ -84,11 +84,11 @@ export function GalleryView({ film, allFilms, onSelectFilm, onClose }: GalleryVi
           </button>
         </div>
 
-        {/* Details block: height-collapsed via CSS on mobile, always shown on
-            desktop (md: overrides win regardless of the `collapsed` state). */}
+        {/* Details block: collapsed via opacity+overflow on mobile (height
+            capped by the aside's own max-h), always shown on desktop. */}
         <div
-          className={`overflow-hidden transition-[max-height,opacity] duration-300 ease-out md:!max-h-none md:!opacity-100 ${
-            collapsed ? 'max-h-0 opacity-0' : 'max-h-[1000px] opacity-100'
+          className={`transition-opacity duration-300 md:!opacity-100 ${
+            collapsed ? 'max-h-0 opacity-0 overflow-hidden' : 'opacity-100'
           }`}
         >
           <nav className="flex flex-col gap-3 mt-6 md:mt-8">
